@@ -16,7 +16,7 @@ const authenticate = require("./Middleware/Authenticate");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://jobify-server-beta.vercel.app",
     credentials: true,
   })
 );
